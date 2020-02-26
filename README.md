@@ -12,8 +12,6 @@ https://github.com/php/php-src.git
 
 ### git checkout php-xx.xx.xx whatever you want that version you build
 
-
-
 ## 2.Build PHP Source
 
 ```
@@ -45,6 +43,10 @@ Repeat steps 3-6 until you are satisfied with ext/test1/config.m4 and
 step 6 confirms that your module is compiled into PHP. Then, start writing
 code and repeat the last two steps as often as necessary.
 ```
+
+## Known Issues
+
+* configure: error: Please specify the install prefix of iconv with --with-iconv=&lt;DIR&gt;   // just `--without-iconv`
 
 
 

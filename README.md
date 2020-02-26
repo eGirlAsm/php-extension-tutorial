@@ -4,7 +4,7 @@ Environment:
 
 Mac Os X 10.14.4
 
-## Clone PHP Source First
+## 1.Clone PHP Source First
 
 ```
 https://github.com/php/php-src.git
